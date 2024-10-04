@@ -28,7 +28,7 @@ function GetUpdates(url){
                         // Обработка полученных сообщений
                         updates.forEach(update => {
                             if (update.message) {
-                                document.write("<br>" + update.message.text);
+                                document.write("<br>" + update.message);
                             }
                         });
 
